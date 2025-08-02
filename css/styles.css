@@ -3210,7 +3210,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height : 7.2rem;
-    --logo-width    : 21.6rem;
+    --logo-width    : 10.8rem;
 
     z-index         : 100;
     background-color: transparent;
@@ -3285,9 +3285,6 @@ td:last-child {
 .header-logo a {
     display: block;
     margin : 0;
-    .section-header .text-display-title {
-        font-size: 2rem !important;
-    }
     padding: 0;
     outline: 0;
     border : none;
@@ -3559,9 +3556,6 @@ td:last-child {
 @media screen and (max-width: 400px) {
     .s-header {
         --logo-width: 9.8rem;
-    }
-    .section-header .text-display-title {
-        font-size: 1.5rem !important;
     }
 }
 
