@@ -3625,7 +3625,7 @@ td:last-child {
 }
 
 .intro-header__big-type {
-    font-size  : clamp(var(--text-display), var(--text-3xl) + 10vw, 19.2rem);
+    font-size  : clamp(var(--text-display), var(--text-1xl) + 5vw, 19.2rem);
     line-height: 1;
     margin-top : 0;
 }
