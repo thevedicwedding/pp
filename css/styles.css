@@ -3285,6 +3285,9 @@ td:last-child {
 .header-logo a {
     display: block;
     margin : 0;
+    .section-header .text-display-title {
+        font-size: 2rem !important;
+    }
     padding: 0;
     outline: 0;
     border : none;
@@ -3556,6 +3559,9 @@ td:last-child {
 @media screen and (max-width: 400px) {
     .s-header {
         --logo-width: 9.8rem;
+    }
+    .section-header .text-display-title {
+        font-size: 1.5rem !important;
     }
 }
 
