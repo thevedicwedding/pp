@@ -3276,10 +3276,12 @@ td:last-child {
 .header-logo {
     z-index    : 3;
     line-height: 1;
-    transform  : translate(0, calc(-50% + 0.2rem));
     position   : absolute;
     left       : calc(var(--gutter) * 2);
-    top        : 50%;
+    top        : 0;
+    transform  : none;
+    display    : flex;
+    align-items: flex-start;
 }
 
 .header-logo a {
@@ -4072,6 +4074,11 @@ td:last-child {
 
     .s-about__content-start .about-pic-primary {
         width        : min(400px, 100%);
+    }
+
+    .section-header .text-display-title {
+        font-size: 50% !important;
+    }
         margin-inline: auto;
     }
 }
